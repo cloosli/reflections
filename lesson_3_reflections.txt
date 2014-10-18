@@ -4,5 +4,6 @@ if you work on multiple devices, or in a team or just as backup in the cloud.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If you have local changes, you have to merge the files and you can see what others have done in the repo.
 
-
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks is ah shortcut from GutHub, it clones a repository in yours. Branches makes a new graph / fork parallel to the master. User forks on GitHub and clone to create a completly new repo. Use branches if you want commit the branch back to the master.  
 
