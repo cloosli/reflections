@@ -1,13 +1,11 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
-line marked with + for new lines
-line marked with - for deleted lines
+Using the diff, ist shows where what has changed, new lines are marked with + and deleted lines with -.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-changes on a feature or bug must be in one commit with good comment. this makes it easy for the history
+Changes on a feature or bug must be in one commit with a good comment. This makes it easy to find out a bug or git log to see which files has changed for something.
 
 How can you use the commands git log and git diff to view the history of files?
-git log shows all commit, every commit has an id. with this id you can compare this commit an you can see what is new or deleted in the file
+git log shows the commit wit comment, every commit has an id. With this id, you can compare commits or compare each file separately.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-use for all my private and public code projet including ps1 emulator
+For all my code project's, whether java, go or dart project's
