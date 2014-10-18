@@ -1,19 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
-it creates a dir .git with local objects and configs. this dir is now a git repo
+Git creates a dir .git with local objects and configs. In this dir are all changes, commit and branches, it is necessary for git log git diff etc.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-staging is under git controll. this file will i commit
+the staging area contains the object which can commit, in the working directory are the files you are working on. this offers to commit just what you want and not all changed files.
 
 How can you use the staging area to make sure you have one commit per logical change?
-just add the logical files to the staging area and commit this
+Just add the logical files to the staging area and commit this.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-big features or changes that not can be commited to master
+Big features or small bug fixes too, particularly changes which you will commit but not to the master branch.
 
 How do the diagrams help you visualize the branch structure?
-shows the commit flow
+Shows the commit flow, it shows you when someone did a branch or merge back to master.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-its easy and not a lot of diff. but it can be horrible with conflics
+Pro ist git makes a lot of work for you. It is easy and often you have nothing to diff. But it can be horrible with conflics.
 
 
